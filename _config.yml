@@ -9,8 +9,11 @@ personal_site:
   title: Metamorphium
 
 # Your timeline is split into periods (e.g., decades, childhood/teens/adult, "Before Timeliner"/"After Timeliner", etc)
-# Each period has a list of events that include a date and title.
+# Each period has a list of events that include a date and title. If you don't want to have period dividers, leave out the name field.
 periods:
+  - events:
+    - date: January 2020
+      title: "✍️ Neil writes this egocentric timeline. You're welcome."
   - name: "2010's"
     events:
     - date: April 2019

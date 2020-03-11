@@ -25,13 +25,15 @@ layout: base
       </div>
     </li>
     {% for period in site.periods %}
-      <li class="timeline-item period">
-        <div class="timeline-info"></div>
-        <div class="timeline-marker"></div>
-        <div class="timeline-content">
-          <h2 class="timeline-title">{{ period.name }}</h2>
-        </div>
-      </li>
+      {% if period.name %}
+        <li class="timeline-item period">
+          <div class="timeline-info"></div>
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <h2 class="timeline-title">{{ period.name }}</h2>
+          </div>
+        </li>
+      {% endif %}
       {% for event in period.events %}
         <li class="timeline-item">
           <div class="timeline-info">
