@@ -15,7 +15,7 @@ Or be boring and use it as a changelog for your software. What do I care?
 ## How
 
 1. Fork this repo
-2. Edit `_config.yml` to fill in your personal details and timeline events.
+2. Edit `_config.yml` to fill in your personal details and timeline events. Delete or update `CNAME`.
 3. Go to your fork's settings tab, scroll down to the GitHub Pages section, select the `master` branch source and click Save.
 4. Visit http://username.github.io/timeliner
 
