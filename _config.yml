@@ -1,0 +1,106 @@
+title: "Neil's Life"
+author: Neil Gupta
+# Show a link to LinkedIn in the header intro. Comment out to disable.
+linkedin: https://www.linkedin.com/in/guptaneil/
+# Show a link at the top of your timeline to your main personal site
+# Comment this out to disable
+personal_site:
+  url: https://metamorphium.com
+  title: Metamorphium
+
+# Your timeline is split into periods (e.g., decades, childhood/teens/adult, "Before Timeliner"/"After Timeliner", etc)
+# Each period has a list of events that include a date and title.
+periods:
+  - name: "2010's"
+    events:
+    - date: April 2019
+      title: >-
+        👨‍💻 Neil founds <a href="https://hiome.com" target="_blank" rel="noopener noreferrer">Hiome</a> to change how we use our homes.
+    - date: January 2019
+      title: "🏆 Neil receives a grant from Y Combinator to keep building his smart home tech."
+    - date: September 2018
+      title: "🛠 Neil turns his second bedroom into a prototyping lab with four 3D printers and a soldering bench."
+    - date: January 2018
+      title: "🧠 Neil builds an AI to manage his home for him."
+    - date: October 2016
+      title: "💁‍♀️ Neil meets Kat. His life is improved."
+    - date: November 2015
+      title: "🏠 Neil buys his first home."
+    - date: July 2015
+      title: "🤕 Neil gets hit by a bicyclist named Neil G. He wakes up in the hospital with 14 stitches on his face but no new superpowers."
+    - date: December 2014
+      title: >-
+        👨‍💻 Neil prototypes Maven, an on-demand personal assistant, 3 months before <a href="https://getmagic.com" target="_blank" 
+        rel="noopener noreferrer">Magic</a> launches.
+    - date: August 2014
+      title: >-
+        👨‍💻 Neil builds the <a href="https://vimeo.com/108903604" target="_blank" re="noopener noreferrer" title="Watch the 
+        Flocks in action">Flocks</a>, an art installation that reacts to its environment. Cisco displays two at their Internet of Things 
+        conference, 1871 displays four of them.
+    - date: June 2013
+      title: "💀 Tabule shuts down, the team is acqui-hired."
+    - date: July 2012
+      title: >-
+        🎙 Neil does a press conference with <a href="https://en.wikipedia.org/wiki/Rahm_Emanuel" target="_blank" rel="noopener noreferrer">
+        Rahm Emanuel</a> about Tabule and Chicago tech. Emanuel says "Chicago needs more Neils." Neil agrees for exactly 3 years.
+    - date: June 2012
+      title: "👨‍💻 Neil cofounds Tabule, a smart student planner powered by AI. It has over 4 stars in the App Store."
+    - date: May 2012
+      title: >-
+        🎓 Neil graduates from Illinois Institute of Technology with degrees in Computer Science & Psychology, a minor in Entrepreneurship, 
+        and a specialization in Artificial Intelligence.
+    - date: December 2011
+      title: >-
+        💻 Neil works with the <a href="https://vimeo.com/33098706" target="_blank" rel="noopener noreferrer" title="Watch a slideshow of 
+        my team's trip to Haiti">Haiti Ministry of Education, OLPC, and IIT</a> to deploy solar panels, laptops, and servers pre-loaded with 
+        Wikipedia in a Haitian school.
+    - date: October 2011
+      title: "🏆 Neil becomes a ThinkChicago Fellow."
+    - date: October 2010
+      title: "🎂 Neil turns 20."
+    - date: June 2010
+      title: "✈️ Neil spends a summer in Paris for study abroad."
+  - name: "2000's"
+    events:
+    - date: November 2009
+      title: >-
+        📷 Neil gets a DSLR camera and picks up <a href="https://500px.com/neilgupta" target="_blank" rel="noopener noreferrer" 
+        title="See some of my photos">photography as a hobby</a>.
+    - date: August 2008
+      title: "✈️ Neil moves to Chicago."
+    - date: August 2007
+      title: "📱 Neil gets the first iPhone. People make fun of him for spending $600 on a phone."
+    - date: May 2007
+      title: "👨‍💻 Neil gets his first summer job as developer #1 at a sports social network. He works out of a literal garage in Silicon Valley."
+    - date: September 2006
+      title: "👨‍💻 Neil cofounds Metamorphium Design, a profitable web design business."
+    - date: December 2005
+      title: "👨‍💻 Neil builds a NoSQL CMS to power Amalgam, an online literary magazine he cofounded."
+    - date: August 2004
+      title: "🎓 Neil starts high school."
+    - date: July 2004
+      title: "👨‍💻 Neil launches WebScope.tv, a video sharing platform for his friends because YouTube doesn't exist yet."
+    - date: August 2002
+      title: "🧮 Neil gets a TI-83 Plus Silver Edition calculator that he uses to program games in BASIC during math class."
+    - date: August 2002
+      title: "🎓 Neil starts middle school."
+    - date: October 2000
+      title: "🎂 Neil turns 10. It's a new millennium."
+  - name: "1990's"
+    events:
+    - date: June 1999
+      title: "🔥 Neil's parents upgrade their dial-up to 6mbps DSL. Neil starts playing with JavaScript. And Napster."
+    - date: March 1999
+      title: "🕶 The Matrix is released. Neil has to clarify his name isn't Neo for the rest of the decade."
+    - date: July 1998
+      title: "🎬 Neil directs his first action movie using a VHS camcorder and PowerMac 8500."
+    - date: December 1997
+      title: "🏠 Neil moves to his new home in south San Jose on Christmas. It's 100% less shitty than the last one."
+    - date: February 1995
+      title: "💩 Neil splatters poop on his walls while swinging a garbage bag with a dirty diaper. This is his first physics lesson."
+    - date: August 1994
+      title: "👶 Neil's sister, Nandini, is born."
+    - date: December 1990
+      title: "✈️ Neil moves to California."
+    - date: October 1990
+      title: "👶 Neil is born in Michigan."

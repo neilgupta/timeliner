@@ -1,0 +1,51 @@
+---
+layout: base
+---
+
+<div class="container-fluid">
+  <div class="header">
+    {% if site.personal_site %}
+    <p><a href="{{site.personal_site.url}}">&#x2190; {{site.personal_site.title}}</a></p>
+    {% endif %}
+    <h1>{{ site.title }}</h1>
+    <p>This is a timeline of my life, as of {{ site.time | date: '%B %d, %Y' }}.
+      {% if site.linkedin %}
+        For professional milestones, see <a href="{{site.linkedin}}" target="_blank" rel="noopener noreferrer">LinkedIn</a>.
+      {% endif %}
+    </p>
+  </div>
+  <ul class="timeline timeline-split">
+    <li class="timeline-item inactive">
+      <div class="timeline-info">
+        <span>Today</span>
+      </div>
+      <div class="timeline-marker"></div>
+      <div class="timeline-content">
+        <h3 class="timeline-title">¯\_(ツ)_/¯</h3>
+      </div>
+    </li>
+    {% for period in site.periods %}
+      <li class="timeline-item period">
+        <div class="timeline-info"></div>
+        <div class="timeline-marker"></div>
+        <div class="timeline-content">
+          <h2 class="timeline-title">{{ period.name }}</h2>
+        </div>
+      </li>
+      {% for event in period.events %}
+        <li class="timeline-item">
+          <div class="timeline-info">
+            <span>{{ event.date }}</span>
+          </div>
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <h3 class="timeline-title">{{ event.title }}</h3>
+          </div>
+        </li>
+      {% endfor %}
+    {% endfor %}
+  </ul>
+  <p class="footer">
+    &copy; {{ site.author }} {{ site.time | date: '%Y' }}<br/>
+    Made with ♥ and <a href="https://github.com/neilgupta/timeliner" target="_blank" rel="noopener noreferrer">Timeliner</a></p>
+</div>
