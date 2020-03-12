@@ -8,7 +8,7 @@ layout: base
     <p><a href="{{site.personal_site.url}}">&#x2190; {{site.personal_site.title}}</a></p>
     {% endif %}
     <h1>{{ site.title }}</h1>
-    <p>Timelines are a fun way to visualize someone's life and get to know them quickly. This is my timeline, as of {{ site.time | date: '%B %d, %Y' }}.
+    <p>Timelines are a fun way to visualize someone's life and get to know them quickly. This is my timeline, as of <a href="#bottom" title="Scroll to bottom">{{ site.time | date: '%B %Y' }}</a>.
       {% if site.linkedin %}
         For professional milestones, see <a href="{{site.linkedin}}" target="_blank" rel="noopener noreferrer">LinkedIn</a>.
       {% endif %}
@@ -16,18 +16,6 @@ layout: base
   </div>
 
   <ul class="timeline timeline-split">
-    {% if site.show_today %}
-      <li class="timeline-item inactive">
-        <div class="timeline-info">
-          <span>Today</span>
-        </div>
-        <div class="timeline-marker"></div>
-        <div class="timeline-content">
-          <h3 class="timeline-title">¯\_(ツ)_/¯</h3>
-        </div>
-      </li>
-    {% endif %}
-
     {% for period in site.periods %}
       {% if period.name %}
         <li class="timeline-item period">
@@ -52,8 +40,21 @@ layout: base
         {% endfor %}
       {% endfor %}
     {% endfor %}
+
+    {% if site.show_today %}
+      <li class="timeline-item inactive">
+        <div class="timeline-info">
+          <span>Today</span>
+        </div>
+        <div class="timeline-marker"></div>
+        <div class="timeline-content">
+          <h3 class="timeline-title">¯\_(ツ)_/¯</h3>
+        </div>
+      </li>
+    {% endif %}
   </ul>
 
+  <a id="bottom"></a>
   <p class="footer">
     &copy; {{ site.author }} {{ site.time | date: '%Y' }}<br/>
     Made with ♥ and <a href="https://github.com/neilgupta/timeliner" target="_blank" rel="noopener noreferrer">Timeliner</a>
