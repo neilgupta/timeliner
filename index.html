@@ -14,16 +14,20 @@ layout: base
       {% endif %}
     </p>
   </div>
+
   <ul class="timeline timeline-split">
-    <li class="timeline-item inactive">
-      <div class="timeline-info">
-        <span>Today</span>
-      </div>
-      <div class="timeline-marker"></div>
-      <div class="timeline-content">
-        <h3 class="timeline-title">¯\_(ツ)_/¯</h3>
-      </div>
-    </li>
+    {% if site.show_today %}
+      <li class="timeline-item inactive">
+        <div class="timeline-info">
+          <span>Today</span>
+        </div>
+        <div class="timeline-marker"></div>
+        <div class="timeline-content">
+          <h3 class="timeline-title">¯\_(ツ)_/¯</h3>
+        </div>
+      </li>
+    {% endif %}
+
     {% for period in site.periods %}
       {% if period.name %}
         <li class="timeline-item period">
@@ -34,20 +38,24 @@ layout: base
           </div>
         </li>
       {% endif %}
-      {% for event in period.events %}
+      {% for event_hash in period.events %}
+        {% for event in event_hash %}
         <li class="timeline-item">
           <div class="timeline-info">
-            <span>{{ event.date }}</span>
+            <span>{{ event[0] }}</span>
           </div>
           <div class="timeline-marker"></div>
           <div class="timeline-content">
-            <h3 class="timeline-title">{{ event.title }}</h3>
+            <h3 class="timeline-title">{{ event[1] }}</h3>
           </div>
         </li>
+        {% endfor %}
       {% endfor %}
     {% endfor %}
   </ul>
+
   <p class="footer">
     &copy; {{ site.author }} {{ site.time | date: '%Y' }}<br/>
-    Made with ♥ and <a href="https://github.com/neilgupta/timeliner" target="_blank" rel="noopener noreferrer">Timeliner</a></p>
+    Made with ♥ and <a href="https://github.com/neilgupta/timeliner" target="_blank" rel="noopener noreferrer">Timeliner</a>
+  </p>
 </div>
