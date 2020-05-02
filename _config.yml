@@ -37,7 +37,7 @@ periods:
     - August 2007: "📱 Neil gets the first iPhone. People make fun of him for spending $600 on a phone."
     - August 2008: "✈️ Neil moves to Chicago."
     - November 2009: >-
-        📷 Neil gets a DSLR camera and picks up <a href="https://photos.metamorphium.com" target="_blank" rel="noopener noreferrer" 
+        📷 Neil gets a DSLR camera and picks up <a href="https://photos.metamorphium.com" target="_blank" rel="noopener" 
         title="See some of my photos">photography as a hobby</a>.
   - name: 2010's
     events:
@@ -45,7 +45,7 @@ periods:
     - October 2010: 🎂 Neil turns 20.
     - October 2011: 🏆 Neil becomes a ThinkChicago Fellow.
     - December 2011: >-
-        💻 Neil works with <a href="https://vimeo.com/33098706" target="_blank" rel="noopener noreferrer" title="Watch a slideshow of 
+        💻 Neil works with <a href="https://vimeo.com/33098706" target="_blank" rel="noopener" title="Watch a slideshow of 
         my team's trip to Haiti">Haiti's Ministry of Education, OLPC, and IIT</a> to deploy solar panels, laptops, and servers pre-loaded with 
         Wikipedia in a Haitian school.
     - May 2012: >-
@@ -53,16 +53,16 @@ periods:
         and a specialization in Artificial Intelligence.
     - June 2012: "👨‍💻 Neil cofounds Tabule, a smart student planner powered by AI. It has over 4 stars in the App Store."
     - July 2012: >-
-        🎙 Neil does a press conference with <a href="https://en.wikipedia.org/wiki/Rahm_Emanuel" target="_blank" rel="noopener noreferrer">
+        🎙 Neil does a press conference with <a href="https://en.wikipedia.org/wiki/Rahm_Emanuel" target="_blank" rel="noopener">
         Rahm Emanuel</a> about Tabule and Chicago tech. Emanuel says "Chicago needs more Neils." Neil agrees for exactly 3 years.
     - June 2013: 💀 Tabule shuts down, the team is acqui-hired.
     - August 2014: >-
-        👨‍💻 Neil builds the <a href="https://vimeo.com/108903604" target="_blank" rel="noopener noreferrer" title="Watch the 
+        👨‍💻 Neil builds the <a href="https://vimeo.com/108903604" target="_blank" rel="noopener" title="Watch the 
         Flocks in action">Flocks</a>, an art installation that reacts to its environment. Cisco displays two at their Internet of Things 
         conference, 1871 displays four of them.
     - December 2014: >-
         👨‍💻 Neil prototypes <a href="http://web.archive.org/web/20141219174007/http://www.getmaven.com/" target="_blank" 
-        rel="noopener noreferrer" title="Hurray for Wayback Machine!">Maven</a>, the operating system for your business, to automate mundane
+        rel="noopener" title="Hurray for Wayback Machine!">Maven</a>, the operating system for your business, to automate mundane
         tasks with an email.
     - July 2015: 🤕 Neil gets hit by a bicyclist named Neil G. He wakes up in the hospital with 14 stitches on his face but no new superpowers.
     - October 2015: 🧧 Instructure IPO's.
@@ -72,8 +72,12 @@ periods:
     - September 2018: 🛠 Neil turns his second bedroom into a prototyping lab with four 3D printers and a soldering bench.
     - January 2019: 🏆 Neil receives a grant from Y Combinator to keep building his smart home tech.
     - April 2019: >-
-        👨‍💻 Neil founds <a href="https://hiome.com" target="_blank" rel="noopener noreferrer">Hiome</a> to change how we use our homes.
+        👨‍💻 Neil founds <a href="https://hiome.com" target="_blank" rel="noopener">Hiome</a> to change how we use our homes.
   - name: 2020's
     events:
     - January 2020: >-
-        ✍️ Neil <a href="https://github.com/neilgupta/timeliner" target="_blank" rel="noopener noreferrer" title="Make your own!">writes this timeline</a>. You're welcome.
+        ✍️ Neil <a href="https://github.com/neilgupta/timeliner" target="_blank" rel="noopener" title="Make your own!">writes this 
+        timeline</a>. You're welcome.
+    - May 2020: >-
+        🦠 Neil launches <a href="https://researchexplained.org" target="_blank" rel="noopener">Research Explained</a> to make beautiful 
+        summaries of COVID-19 research accessible to anyone.
