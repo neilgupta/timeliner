@@ -9,7 +9,7 @@ linkedin: https://www.linkedin.com/in/guptaneil/
 personal_site:
   url: https://metamorphium.com
   title: Metamorphium
-# show today marker with ¯\_(ツ)_/¯
+# show today marker at end of timeline
 show_today: true
 
 # Your timeline is split into periods (e.g., decades, childhood/teens/adult, "Before Timeliner"/"After Timeliner", etc)
@@ -79,5 +79,5 @@ periods:
         ✍️ Neil <a href="https://github.com/neilgupta/timeliner" target="_blank" rel="noopener" title="Make your own!">writes this 
         timeline</a>. You're welcome.
     - May 2020: >-
-        🦠 Neil launches <a href="https://researchexplained.org" target="_blank" rel="noopener">Research Explained</a> to make beautiful 
+        🦠 Neil launches <a href="https://researchexplained.org" target="_blank" rel="noopener">Research Explained</a> to make visual 
         summaries of COVID-19 research accessible to anyone.
