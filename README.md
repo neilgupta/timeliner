@@ -2,7 +2,7 @@
 
 Make a super simple, self-hosted timeline of your life by forking this repo and editing a config file.
 
-Example: **https://timeline.metamorphium.com**
+Example: **https://timeline.neil.gg**
 
 ## Why
 
@@ -23,8 +23,8 @@ This is a minimalist Jekyll template that spits out a single self-contained `ind
 
 ## Who
 
-👋 I'm Neil Gupta. [See my timeline](https://timeline.metamorphium.com)...
+👋 I'm Neil Gupta. [See my timeline](https://timeline.neil.gg)...
 
 ## Alternate Timelines
 
-I think everybody should have a timeline on their site. If you write a timeline, I want to read it! [Email me](mailto:neil@metamorphium.com) and I'll share it here.
+I think everybody should have a timeline on their site. If you write a timeline, [let me know](mailto:timeline@neil.gg)!

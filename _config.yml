@@ -7,8 +7,8 @@ linkedin: https://www.linkedin.com/in/guptaneil/
 # Show a link at the top of your timeline to your main personal site
 # Comment this out to disable
 personal_site:
-  url: https://metamorphium.com
-  title: Metamorphium
+  url: https://neil.gg
+  title: neil.gg
 # show today marker at end of timeline
 show_today: true
 
@@ -37,7 +37,7 @@ periods:
     - August 2007: "📱 Neil gets the first iPhone. People make fun of him for spending $600 on a phone."
     - August 2008: "✈️ Neil moves to Chicago."
     - November 2009: >-
-        📷 Neil gets a DSLR camera and picks up <a href="https://photos.metamorphium.com" target="_blank" rel="noopener" 
+        📷 Neil gets a DSLR camera and picks up <a href="https://photos.neil.gg" target="_blank" rel="noopener" 
         title="See some of my photos">photography as a hobby</a>.
   - name: 2010's
     events:
