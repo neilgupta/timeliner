@@ -16,7 +16,7 @@ show_today: true
 # Each period has a list of events formatted as `- date: title`. If you don't want to have period dividers, leave out the name field.
 periods:
   - events:
-    - October 1990: "👶 Neil is born in Michigan."
+    - October 1990: "👶 Neil is born in Michigan. Hello world!"
     - December 1990: "✈️ Neil moves to California."
     - August 1994: "👶 Neil's sister, Nandini, is born."
     - February 1995: "💩 Neil splatters poop on his walls while swinging a garbage bag with a dirty diaper. This is his first physics lesson."
@@ -26,7 +26,7 @@ periods:
     - June 1999: "🔥 Neil's internet connection is upgraded from dial-up to 6mbps DSL. He starts tinkering with web development. And Napster."
   - name: 2000's
     events:
-    - October 2000: "🎂 Neil turns 10. It's a new millennium."
+    - October 2000: "🎂 Neil turns 10 as the dot-com bubble collapses. It's a new millennium."
     - August 2002: "🎓 Neil starts middle school."
     - August 2002: "🧮 Neil gets a TI-83 Plus Silver Edition calculator that he uses to program games in BASIC during class."
     - September 2002: "🏹 Neil earns his Arrow of Light, graduating from a Cub Scout to Boy Scout."
@@ -43,7 +43,7 @@ periods:
   - name: 2010's
     events:
     - June 2010: "✈️ Neil studies abroad in Paris."
-    - October 2010: 🎂 Neil turns 20.
+    - October 2010: 🎂 Neil turns 20 amidst the Great Recession.
     - October 2011: 🏆 Neil becomes a ThinkChicago Fellow.
     - December 2011: >-
         💻 Neil works with <a href="https://vimeo.com/33098706" target="_blank" rel="noopener" title="Watch a slideshow of
@@ -66,7 +66,7 @@ periods:
     - May 2015: 👨‍💻 Neil joins Instructure to build educational software again.
     - July 2015: 🤕 Neil gets hit by a bicyclist named Neil G. He wakes up in the hospital with 14 stitches on his face but no new superpowers.
     - November 2015: 🏠 Neil buys his first home in South Loop.
-    - January 2018: 🧠 Neil builds an AI to manage his home for him.
+    - January 2018: 🤖 Neil builds an AI to manage his home for him.
     - September 2018: 🛠 Neil turns his second bedroom into a prototyping lab with four 3D printers and a soldering bench.
     - January 2019: 🏆 Neil receives a grant from Y Combinator to keep building his smart home tech.
     - April 2019: >-
@@ -77,8 +77,8 @@ periods:
         🦠 Neil launches <a href="https://researchexplained.neil.gg" target="_blank" rel="noopener">Research Explained</a> to make visual
         summaries of COVID-19 research accessible to anyone.
     - August 2020: 👨‍💻 Neil joins Guilded to build the community platform for gamers.
-    - October 2020: 🎂 Neil turns 30 in the midst of a global pandemic.
-    - April 2021: 🏠 Neil moves to a new home in Streeterville.
+    - October 2020: 🎂 Neil turns 30 in lockdown from a global pandemic.
+    - April 2021: 🏠 Neil moves to a <a href="https://iframe.videodelivery.net/eff74a655073268af5709eb38cd42104" target="_blank" rel="noopener" title="Tour my home">new home</a> in Streeterville.
     - May 2021: 🐶 Neil's sister adopts <a href="https://photos.neil.gg/wally" target="_blank" title="Meet our beautiful greyhound!">Wally</a>, fulfilling a life-long Gupta sibling dream and granting him unlimited dog time with none of the work.
     - October 2022: 🏃‍♂️ Neil runs his first 10k race.
-    - April 2024: 🐌 Neil sells his home and most his things, going fully nomadic.
+    - April 2024: ✈️ Neil becomes <strike>homeless</strike> a digital nomad, selling his home and most his <a href="https://neil.gg/uses/" target="_blank" title="My daily drivers and favorite things">things</a>.
